@@ -1,0 +1,11 @@
+{
+  "name": "graphql-sequelize-auto",
+  "version": "0.0.1",
+  "description": "A package that will automatically create all of the graphql schema from sequelize models",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tyler Hasenoehrl",
+  "license": "ISC"
+}
