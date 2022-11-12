@@ -4,8 +4,24 @@
   "description": "A package that will automatically create all of the graphql schema from sequelize models",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tyler Hasenoehrl",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "graphql": "^16.6.0",
+    "graphql-relay": "^0.10.0",
+    "prettier": "^2.7.1",
+    "sequelize": "^6.25.5",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
